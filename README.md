@@ -14,22 +14,46 @@ File adaptor that read from a given CSV file and writes data into an output file
 ###### GitHub
 - git clone https://github.com/bitzyk/testParser.git
 
+###### Composer
+
+Add packet in composer.json file:
+<pre>
+{
+  "require" : {
+		"bitzyk/test-parser": "dev-master"
+	}
+}
+</pre>
+
+and then:
+<pre>
+php composer install
+</pre>
+or
+<pre>
+php composer update
+</pre>
+
 ###### ZIP
 - download zip archieve and unzip on you pc
-
-
-
-###### Composer
 
 ## Run
 
 ###### CLI
-- php {installationDir}/testParser/FileAdaptor/fileAdaptorBootstrap.php {outputFormat}
+<pre>
+php {installationDir}/testParser/FileAdaptor/fileAdaptorBootstrap.php {outputFormat}
+</pre>
 
 ###### HTTP
-- access {serverName}/testParser/FileAdaptor/fileAdaptorBootstrap.php 
+<pre>
+access {serverName}/testParser/FileAdaptor/fileAdaptorBootstrap.php 
+</pre>
 
 ## Options
 
-###### Output Format: xml or html
+###### Output Format
+-  xml or html
 
+## Personal Note:
+- My main focus on this test was for the script to be able to process very large files. So, to achieve this, I developed an architecture which favored memory usage at the expense of cpu usage.
+- In the same time i wanted to keep the code in a very easy to read form and to scale for future modification.
