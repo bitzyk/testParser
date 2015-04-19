@@ -1,0 +1,19 @@
+{
+	"name": "bitzyk/testParses",
+	"version": "1.0.0",
+	"description": "Parser that read csv file and save xml or html output according to specifications",
+	"type": "library",
+	"keywords": "",
+	"homepage": "https://github.com/bitzyk/testParser/",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Cristian Bitoi",
+			"role": "Developer",
+			"email": "bitzyk@yahoo.com"			
+		}
+	],
+	"support": {
+		"source": "https://github.com/bitzyk/testParser/"
+	}
+}
