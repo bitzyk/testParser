@@ -1,0 +1,3 @@
+Error level: 256
+Error message:WritterFactory should return a Writter. Valid types: xml, html.
+

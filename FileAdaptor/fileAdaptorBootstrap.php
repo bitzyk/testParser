@@ -4,10 +4,7 @@
  * Date: 4/17/15
  */
 
-//require_once __DIR__ . '/../Autoloader.php';
-require_once 'Autoloader.php';
-define('BASE_PATH', realpath(dirname(__FILE__)));
-set_error_handler(array('FileAdaptor\Classes\ErrorHandler', 'handler'));
+require_once 'config.php';
 
 if(php_sapi_name() == 'cli') {
     if(!isset($argv)) {

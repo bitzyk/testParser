@@ -15,5 +15,8 @@
 	],
 	"support": {
 		"source": "https://github.com/bitzyk/testParser/"
-	}
+	},
+    "require-dev": {
+      "phpunit/phpunit": "4.6.*"
+    }
 }
