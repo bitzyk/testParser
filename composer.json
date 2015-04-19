@@ -3,7 +3,7 @@
 	"version": "1.0.0",
 	"description": "Parser that read csv file and save xml or html output according to specifications",
 	"type": "library",
-	"keywords": "",
+	"keywords": ["test parser"],
 	"homepage": "https://github.com/bitzyk/testParser/",
 	"license": "MIT",
 	"authors": [
