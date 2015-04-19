@@ -11,3 +11,25 @@ File adaptor that read from a given CSV file and writes data into an output file
 
 ## Installation
 
+###### GitHub
+- git clone https://github.com/bitzyk/testParser.git
+
+###### ZIP
+- download zip archieve and unzip on you pc
+
+
+
+###### Composer
+
+## Run
+
+###### CLI
+- php {installationDir}/testParser/FileAdaptor/fileAdaptorBootstrap.php {outputFormat}
+
+###### HTTP
+- access {serverName}/testParser/FileAdaptor/fileAdaptorBootstrap.php 
+
+## Options
+
+###### Output Format: xml or html
+
