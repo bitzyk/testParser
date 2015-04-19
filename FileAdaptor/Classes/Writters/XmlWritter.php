@@ -86,6 +86,7 @@ class XmlWritter extends WritterAbstract
     {
         $headerOutput = '<?xml version="1.0" encoding="utf-8"?>' . "\n";
         $headerOutput .= '<items>' . "\n";
+        $headerOutput .= '<dateTime>' . date("c") . '</dateTime>';
 
         fwrite($this->getWritterFileHandle(), $headerOutput);
 
