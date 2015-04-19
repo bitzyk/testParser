@@ -1,5 +1,5 @@
 {
-	"name": "bitzyk/testParses",
+	"name": "bitzyk/test-parser",
 	"version": "1.0.0",
 	"description": "Parser that read csv file and save xml or html output according to specifications",
 	"type": "library",
